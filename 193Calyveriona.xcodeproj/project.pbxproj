@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301FD3EB2FD6E6070019443E /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3DF2FD6E6070019443E /* LaunchDestination.swift */; };
+		301FD3EC2FD6E6070019443E /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E42FD6E6070019443E /* LaunchSessionStore.swift */; };
+		301FD3ED2FD6E6070019443E /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3DD2FD6E6070019443E /* CalendarGateEvaluator.swift */; };
+		301FD3EE2FD6E6070019443E /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E72FD6E6070019443E /* RemoteEntryURLComposer.swift */; };
+		301FD3EF2FD6E6070019443E /* LaunchFlowDebugOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E02FD6E6070019443E /* LaunchFlowDebugOptions.swift */; };
+		301FD3F02FD6E6070019443E /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E52FD6E6070019443E /* LaunchStagingState.swift */; };
+		301FD3F12FD6E6070019443E /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E82FD6E6070019443E /* RootWindowPresenter.swift */; };
+		301FD3F22FD6E6070019443E /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E22FD6E6070019443E /* LaunchFlowResolver.swift */; };
+		301FD3F32FD6E6070019443E /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3DE2FD6E6070019443E /* DeferredLaunchCanvas.swift */; };
+		301FD3F42FD6E6070019443E /* LaunchFlowLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E12FD6E6070019443E /* LaunchFlowLogger.swift */; };
+		301FD3F52FD6E6070019443E /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E92FD6E6070019443E /* WebDocumentSurfaceView.swift */; };
+		301FD3F62FD6E6070019443E /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E32FD6E6070019443E /* LaunchFlowSecrets.swift */; };
+		301FD3F72FD6E6070019443E /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3E62FD6E6070019443E /* RemoteEntryProbe.swift */; };
+		301FD3F92FD6E60B0019443E /* AppMarketingCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD3F82FD6E60B0019443E /* AppMarketingCopy.swift */; };
 		30BE4B052FCA2F4C00ED4307 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 30BE4AF82FCA2F4C00ED4307 /* privacy_policy.md */; };
 		30BE4B062FCA2F4C00ED4307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BE4AFB2FCA2F4C00ED4307 /* Assets.xcassets */; };
 		30BE4B082FCA2F4C00ED4307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BE4AFF2FCA2F4C00ED4307 /* LaunchScreen.storyboard */; };
@@ -52,6 +66,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301FD3DD2FD6E6070019443E /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		301FD3DE2FD6E6070019443E /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		301FD3DF2FD6E6070019443E /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		301FD3E02FD6E6070019443E /* LaunchFlowDebugOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowDebugOptions.swift; sourceTree = "<group>"; };
+		301FD3E12FD6E6070019443E /* LaunchFlowLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowLogger.swift; sourceTree = "<group>"; };
+		301FD3E22FD6E6070019443E /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		301FD3E32FD6E6070019443E /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		301FD3E42FD6E6070019443E /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		301FD3E52FD6E6070019443E /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		301FD3E62FD6E6070019443E /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		301FD3E72FD6E6070019443E /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		301FD3E82FD6E6070019443E /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		301FD3E92FD6E6070019443E /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
+		301FD3F82FD6E60B0019443E /* AppMarketingCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketingCopy.swift; sourceTree = "<group>"; };
 		30BE49192FCA1E4200ED4307 /* 193Calyveriona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 193Calyveriona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BE4AC32FCA2F4C00ED4307 /* AppVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualStyle.swift; sourceTree = "<group>"; };
 		30BE4AC42FCA2F4C00ED4307 /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
@@ -119,6 +147,26 @@
 				943529068E811179F3DCDFD4 /* Pods-193Calyveriona.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		301FD3EA2FD6E6070019443E /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				301FD3DD2FD6E6070019443E /* CalendarGateEvaluator.swift */,
+				301FD3DE2FD6E6070019443E /* DeferredLaunchCanvas.swift */,
+				301FD3DF2FD6E6070019443E /* LaunchDestination.swift */,
+				301FD3E02FD6E6070019443E /* LaunchFlowDebugOptions.swift */,
+				301FD3E12FD6E6070019443E /* LaunchFlowLogger.swift */,
+				301FD3E22FD6E6070019443E /* LaunchFlowResolver.swift */,
+				301FD3E32FD6E6070019443E /* LaunchFlowSecrets.swift */,
+				301FD3E42FD6E6070019443E /* LaunchSessionStore.swift */,
+				301FD3E52FD6E6070019443E /* LaunchStagingState.swift */,
+				301FD3E62FD6E6070019443E /* RemoteEntryProbe.swift */,
+				301FD3E72FD6E6070019443E /* RemoteEntryURLComposer.swift */,
+				301FD3E82FD6E6070019443E /* RootWindowPresenter.swift */,
+				301FD3E92FD6E6070019443E /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		30BE49102FCA1E4200ED4307 = {
@@ -327,6 +375,7 @@
 			isa = PBXGroup;
 			children = (
 				30BE4AF82FCA2F4C00ED4307 /* privacy_policy.md */,
+				301FD3F82FD6E60B0019443E /* AppMarketingCopy.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -345,6 +394,7 @@
 				30BE4B012FCA2F4C00ED4307 /* Main.storyboard */,
 				30BE4B022FCA2F4C00ED4307 /* SceneDelegate.swift */,
 				30BE4B032FCA2F4C00ED4307 /* ViewController.swift */,
+				301FD3EA2FD6E6070019443E /* LaunchFlow */,
 			);
 			path = 193Calyveriona;
 			sourceTree = "<group>";
@@ -478,6 +528,7 @@
 				30BE4B1E2FCA2F4C00ED4307 /* HomeViewModel.swift in Sources */,
 				30BE4B1F2FCA2F4C00ED4307 /* MainTabView.swift in Sources */,
 				30BE4B202FCA2F4C00ED4307 /* OnboardingView.swift in Sources */,
+				301FD3F92FD6E60B0019443E /* AppMarketingCopy.swift in Sources */,
 				30BE4B212FCA2F4C00ED4307 /* PerformanceExtrasView.swift in Sources */,
 				30BE4B222FCA2F4C00ED4307 /* PerformanceTrackerView.swift in Sources */,
 				30BE4B232FCA2F4C00ED4307 /* PerformanceTrackerViewModel.swift in Sources */,
@@ -488,6 +539,19 @@
 				30BE4B282FCA2F4C00ED4307 /* WorkoutTemplatesView.swift in Sources */,
 				30BE4B292FCA2F4C00ED4307 /* ActiveTimerView.swift in Sources */,
 				30BE4B2A2FCA2F4C00ED4307 /* IntervalTimerView.swift in Sources */,
+				301FD3EB2FD6E6070019443E /* LaunchDestination.swift in Sources */,
+				301FD3EC2FD6E6070019443E /* LaunchSessionStore.swift in Sources */,
+				301FD3ED2FD6E6070019443E /* CalendarGateEvaluator.swift in Sources */,
+				301FD3EE2FD6E6070019443E /* RemoteEntryURLComposer.swift in Sources */,
+				301FD3EF2FD6E6070019443E /* LaunchFlowDebugOptions.swift in Sources */,
+				301FD3F02FD6E6070019443E /* LaunchStagingState.swift in Sources */,
+				301FD3F12FD6E6070019443E /* RootWindowPresenter.swift in Sources */,
+				301FD3F22FD6E6070019443E /* LaunchFlowResolver.swift in Sources */,
+				301FD3F32FD6E6070019443E /* DeferredLaunchCanvas.swift in Sources */,
+				301FD3F42FD6E6070019443E /* LaunchFlowLogger.swift in Sources */,
+				301FD3F52FD6E6070019443E /* WebDocumentSurfaceView.swift in Sources */,
+				301FD3F62FD6E6070019443E /* LaunchFlowSecrets.swift in Sources */,
+				301FD3F72FD6E6070019443E /* RemoteEntryProbe.swift in Sources */,
 				30BE4B2B2FCA2F4C00ED4307 /* IntervalTimerViewModel.swift in Sources */,
 				30BE4B2C2FCA2F4C00ED4307 /* AppDelegate.swift in Sources */,
 				30BE4B2D2FCA2F4C00ED4307 /* ContentView.swift in Sources */,
@@ -541,7 +605,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gri.c9l3v3r10n4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -581,7 +645,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gri.c9l3v3r10n4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
